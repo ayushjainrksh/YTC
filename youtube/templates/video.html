@@ -26,6 +26,7 @@ Video
       <h3>Comments</h3>
       
       {% if form %}
+      {% if channel %}
       <form action="/comment" method="POST">
           {% csrf_token %}
           {{ form }}
@@ -33,6 +34,7 @@ Video
           <br>
           <button type="submit" class="btn btn-primary">Post Comment!</button>
       </form>
+      {% endif %}
       {% endif %}
       
       {% for comment in comments %}
