@@ -1,5 +1,5 @@
 Django==2.2.13
-django-debug-toolbar==2.1
+django-debug-toolbar==2.2.1
 django-excel-response2==2.0.8
 django-six==1.0.4
 pytz==2019.3
